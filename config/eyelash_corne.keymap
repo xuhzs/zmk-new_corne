@@ -144,7 +144,7 @@
 
         pipe_symbol {
             bindings = <&kp PIPE>;
-            key-positions = <39 38>;
+            key-positions = <37 39>;
             layers = <3>;
         };
 
@@ -170,6 +170,11 @@
             bindings = <&kp GRAVE>;
             key-positions = <16 15>;
             layers = <3>;
+        };
+
+        slash-symbol {
+            bindings = <&kp SLASH>;
+            key-positions = <38 39>;
         };
     };
 
