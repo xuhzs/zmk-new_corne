@@ -362,7 +362,7 @@ combos:
 - p: [38, 39]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [Graphite]
-- p: [39, 38]
+- p: [37, 39]
   k: '|'
   l: [SYM]
 - p: [24, 25]
@@ -377,3 +377,5 @@ combos:
 - p: [16, 15]
   k: {t: '`', s: '~'}
   l: [SYM]
+- p: [38, 39]
+  k: {t: /, s: '?'}
