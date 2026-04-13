@@ -175,6 +175,7 @@
         slash-symbol {
             bindings = <&kp SLASH>;
             key-positions = <38 39>;
+            layers = <3>;
         };
     };
 
