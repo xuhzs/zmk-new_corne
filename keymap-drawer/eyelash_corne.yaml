@@ -62,7 +62,7 @@ layers:
   - O
   - U
   - J
-  - NUM
+  - {t: NUM, h: toggle}
   - $$mdi:apple-keyboard-caps$$
   - {t: N, h: '$$mdi:apple-keyboard-option$$'}
   - {t: R, h: LGUI}
@@ -77,7 +77,7 @@ layers:
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: E, h: '$$mdi:apple-keyboard-command$$'}
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: BASE, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: BASE, h: toggle}
   - Q
   - X
@@ -111,7 +111,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '0', h: '$$mdi:apple-keyboard-option$$', s: )}
   - {t: '4', h: LGUI}
@@ -209,7 +209,7 @@ layers:
   - F7
   - F6
   - F5
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Graphite, h: toggle}
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:apple-keyboard-option$$
   - LGUI
