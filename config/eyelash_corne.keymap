@@ -213,8 +213,8 @@
         gallium_layer {
             display-name = "Graphite";
             bindings = <
-&kp DEL   &kp B            &kp L        &kp D         &kp W            &kp Z                                      &mmv MOVE_UP                     &kp SEMICOLON    &kp F            &kp O         &kp U            &kp J        &mo 2
-&kp CAPS  &hml LEFT_ALT N  &hml LGUI R  &hml LCTRL T  &hml LSHFT S     &kp G                      &mmv MOVE_LEFT  &mmv MCLK       &mmv MOVE_RIGHT  &kp Y            &hmr RSHFT H     &hmr RCTRL A  &hmr LEFT_GUI E  &hmr LALT I  &to 0
+&kp DEL   &kp B            &kp L        &kp D         &kp W            &kp Z                                      &mmv MOVE_UP                     &kp SEMICOLON    &kp F            &kp O         &kp U            &kp J        &to 2
+&kp CAPS  &hml LEFT_ALT N  &hml LGUI R  &hml LCTRL T  &hml LSHFT S     &kp G                      &mmv MOVE_LEFT  &mmv MCLK       &mmv MOVE_RIGHT  &kp Y            &hmr RSHFT H     &hmr RCTRL A  &hmr LEFT_GUI E  &hmr LALT I  &none
 &to 0     &kp Q            &kp X        &kp M         &hml LEFT_ALT C  &kp V        &kp C_MUTE                    &mmv MOVE_DOWN                   &kp K            &hmr LEFT_ALT P  &kp COMMA     &kp DOT          &kp FSLH     &mo 2
                                         &lt 4 DELETE  &lt 5 TAB        &lt 3 SPACE                                                                 &lt 2 BACKSPACE  &sk LSHIFT       &none
             >;
@@ -249,7 +249,7 @@
         utils_layer {
             display-name = "UTILS";
             bindings = <
-&bt BT_PRV  &out OUT_TOG  &kp INSERT         &kp PRINTSCREEN   &none                  &to 6                                &mmv MOVE_UP                     &none  &kp F8   &kp F7   &kp F6   &kp F5  &none
+&bt BT_PRV  &out OUT_TOG  &kp INSERT         &kp PRINTSCREEN   &none                  &to 6                                &mmv MOVE_UP                     &none  &kp F8   &kp F7   &kp F6   &kp F5  &to 1
 &bt BT_NXT  &kp LEFT_ALT  &kp LGUI           &kp LEFT_CONTROL  &kp LSHIFT             &none                &mmv MOVE_LEFT  &mkp MCLK       &mmv MOVE_RIGHT  &none  &kp F12  &kp F11  &kp F10  &kp F9  &none
 &bt BT_CLR  &none         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &mt LALT C_PLAY_PAUSE  &none  &kp C_MUTE                    &mmv MOVE_DOWN                   &none  &kp F4   &kp F3   &kp F2   &kp F1  &none
                                              &none             &none                  &none                                                                 &none  &none    &none
