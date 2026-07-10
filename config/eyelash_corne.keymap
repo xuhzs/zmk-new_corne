@@ -211,11 +211,11 @@
         };
 
         gallium_layer {
-            display-name = "Graphite";
+            display-name = "Gallium";
             bindings = <
-&kp DEL   &kp B            &kp L        &kp D         &kp W            &kp Z                                      &mmv MOVE_UP                     &kp SEMICOLON    &kp F            &kp O         &kp U            &kp J        &to 0
-&kp CAPS  &hml LEFT_ALT N  &hml LGUI R  &hml LCTRL T  &hml LSHFT S     &kp G                      &mmv MOVE_LEFT  &mmv MCLK       &mmv MOVE_RIGHT  &kp Y            &hmr RSHFT H     &hmr RCTRL A  &hmr LEFT_GUI E  &hmr LALT I  &none
-&to 0     &kp Q            &kp X        &kp M         &hml LEFT_ALT C  &kp V        &kp C_MUTE                    &mmv MOVE_DOWN                   &kp K            &hmr LEFT_ALT P  &kp COMMA     &kp DOT          &kp FSLH     &mo 2
+&kp DEL   &kp B            &kp L        &kp D         &kp C            &kp V                                      &mmv MOVE_UP                     &kp J    &kp Y            &kp O         &kp U            &kp ;        &to 0
+&kp CAPS  &hml LEFT_ALT N  &hml LGUI R  &hml LCTRL T  &hml LSHFT S     &kp G                      &mmv MOVE_LEFT  &mmv MCLK       &mmv MOVE_RIGHT  &kp P            &hmr RSHFT H     &hmr RCTRL A  &hmr LEFT_GUI E  &hmr LALT I  &none
+&to 0     &kp X            &kp Q        &kp M         &hml LEFT_ALT W  &kp Z        &kp C_MUTE                    &mmv MOVE_DOWN                   &kp K            &hmr LEFT_ALT F  &kp COMMA     &kp DOT          &kp FSLH     &mo 2
                                         &lt 4 DELETE  &lt 5 TAB        &lt 3 SPACE                                                                 &lt 2 BACKSPACE  &sk LSHIFT       &none
             >;
 
