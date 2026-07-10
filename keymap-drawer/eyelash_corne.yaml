@@ -61,7 +61,7 @@ layers:
   - Y
   - O
   - U
-  - ;
+  - {t: ;, s: ':'}
   - {t: BASE, h: toggle}
   - $$mdi:apple-keyboard-caps$$
   - {t: N, h: '$$mdi:apple-keyboard-option$$'}
