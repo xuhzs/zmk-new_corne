@@ -201,10 +201,10 @@
         default_layer {
             display-name = "BASE";
             bindings = <
-&none     &kp Q            &kp W        &kp E         &kp R            &kp T                                      &mmv MOVE_UP                     &kp Y            &kp U            &kp I         &kp O            &kp SEMICOLON  &none
-&kp CAPS  &hml LEFT_ALT A  &hml LGUI S  &hml LCTRL D  &hml LSHFT F     &kp G                      &mmv MOVE_LEFT  &mmv MCLK       &mmv MOVE_RIGHT  &kp H            &hmr RSHFT J     &hmr RCTRL K  &hmr LEFT_GUI L  &hmr LALT P    &none
-&none     &kp Z            &kp X        &kp C         &hml LEFT_ALT V  &kp B        &kp C_MUTE                    &mmv MOVE_DOWN                   &kp N            &hmr LEFT_ALT M  &kp COMMA     &kp DOT          &kp FSLH       &mo 2
-                                        &lt 4 DELETE  &lt 5 TAB        &lt 3 SPACE                                                                 &lt 2 BACKSPACE  &sk LSHIFT       &RIGHT_ALT
+&none     &kp Q            &kp W        &kp E         &kp R            &kp T                                      &mmv MOVE_UP                     &kp Y            &kp U            &kp I          &kp O            &kp SEMICOLON  &none
+&kp CAPS  &hml LEFT_ALT A  &hml LGUI S  &hml LCTRL D  &hml LSHFT F     &kp G                      &mmv MOVE_LEFT  &mmv MCLK       &mmv MOVE_RIGHT  &kp H            &hmr RSHFT J     &hmr RCTRL K   &hmr LEFT_GUI L  &hmr LALT P    &none
+&none     &kp Z            &kp X        &kp C         &hml LEFT_ALT V  &kp B        &kp C_MUTE                    &mmv MOVE_DOWN                   &kp N            &hmr LEFT_ALT M  &kp COMMA      &kp DOT          &kp FSLH       &mo 2
+                                        &lt 4 DELETE  &lt 5 TAB        &lt 3 SPACE                                                                 &lt 2 BACKSPACE  &sk LSHIFT       &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -213,9 +213,9 @@
         gallium_layer {
             display-name = "Gallium";
             bindings = <
-&kp DEL   &kp B            &kp L        &kp D         &kp C            &kp V                                      &mmv MOVE_UP                     &kp J    &kp Y            &kp O         &kp U            &kp SEMICOLON        &to 0
-&kp CAPS  &hml LEFT_ALT N  &hml LGUI R  &hml LCTRL T  &hml LSHFT S     &kp G                      &mmv MOVE_LEFT  &mmv MCLK       &mmv MOVE_RIGHT  &kp P            &hmr RSHFT H     &hmr RCTRL A  &hmr LEFT_GUI E  &hmr LALT I  &none
-&to 0     &kp X            &kp Q        &kp M         &hml LEFT_ALT W  &kp Z        &kp C_MUTE                    &mmv MOVE_DOWN                   &kp K            &hmr LEFT_ALT F  &kp COMMA     &kp DOT          &kp FSLH     &mo 2
+&kp DEL   &kp B            &kp L        &kp D         &kp C            &kp V                                      &mmv MOVE_UP                     &kp J            &kp Y            &kp O         &kp U            &kp SEMICOLON  &to 0
+&kp CAPS  &hml LEFT_ALT N  &hml LGUI R  &hml LCTRL T  &hml LSHFT S     &kp G                      &mmv MOVE_LEFT  &mmv MCLK       &mmv MOVE_RIGHT  &kp P            &hmr RSHFT H     &hmr RCTRL A  &hmr LEFT_GUI E  &hmr LALT I    &none
+&to 0     &kp X            &kp Q        &kp M         &hml LEFT_ALT W  &kp Z        &kp C_MUTE                    &mmv MOVE_DOWN                   &kp K            &hmr LEFT_ALT F  &kp COMMA     &kp DOT          &kp FSLH       &mo 2
                                         &lt 4 DELETE  &lt 5 TAB        &lt 3 SPACE                                                                 &lt 2 BACKSPACE  &sk LSHIFT       &none
             >;
 
